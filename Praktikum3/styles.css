@@ -1,0 +1,74 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+body {
+    font: 800px;
+    background-image: url(skulls.png);
+    color: black;
+}
+
+.styles {
+    width: 800px;
+    margin: auto;
+    background-color: #E0FFFF;
+}
+
+.header {
+    padding-top: -10px;
+}
+
+.image {
+    height: 350px;
+    background-image: url(img.jpg);
+    background-size: cover;
+    background-position: 0 -180px;
+}
+
+.salam h4 {
+    margin-top: -20px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer .created {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 13px;
+}
+
+.content {
+    text-align: center;
+}
+
+.kontak {
+    text-align: center;
+}
+
+.New {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
